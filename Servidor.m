@@ -3,6 +3,7 @@ classdef Servidor
     %   Detailed explanation goes here
     
     properties
+        ultimaSalidaSistema
         ultimoCliente
         clientes
         tiempoOcupado = 0;
