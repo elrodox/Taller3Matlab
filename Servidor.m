@@ -11,10 +11,10 @@ classdef Servidor
     end
     
     methods
-        function addClient(obj, client)
-            obj.clientCount = obj.clientCount+1;
-            obj.clientes(obj.clientCount) = client;
-        end
+%         function addClient(obj, client)
+%             obj.clientCount = obj.clientCount+1;
+%             obj.clientes(obj.clientCount) = client;
+%         end
     end
     
 end
